@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jpem
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-egiu-tenant/byoc-app-kzsy/jpem@sha256:d22e476c72d6f494159f03fe7207736929bb099fe58acb9ab1fd89dcf221384d
         name: my-java-quarkus
         ports:
         - containerPort: 8081
